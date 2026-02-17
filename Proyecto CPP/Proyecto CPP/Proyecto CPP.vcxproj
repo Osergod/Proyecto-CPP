@@ -104,10 +104,12 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\User\Desktop\Crea una carpeta\Proyecto CPP\SDL3_image-3.2.6\include;C:\Users\User\Desktop\Crea una carpeta\Proyecto CPP\SDL3-3.4.0\include;C:\Users\User\Desktop\Crea una carpeta\Proyecto CPP\SDL3_ttf-3.2.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\User\Desktop\Crea una carpeta\Proyecto CPP\SDL3-3.4.0\lib\x64;C:\Users\User\Desktop\Crea una carpeta\Proyecto CPP\SDL3_ttf-3.2.2\lib\x64;C:\Users\User\Desktop\Crea una carpeta\Proyecto CPP\SDL3_image-3.2.6\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
